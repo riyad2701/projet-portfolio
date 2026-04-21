@@ -80,8 +80,26 @@ h1, h2, h3, h4, h5, h6, strong, b {
     border-radius: 0;
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Pour une transition fluide */
+}
+
+/* Effet au survol (hover) */
+.card:hover {
+    background-color: #efefef !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Légère ombre sur le pourtour */
+}
+
 .portfolio-header p {
     margin-bottom: 10px;
+}
+
+.btn {
+    transition: filter 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    filter: brightness(1.2);
 }
 
 .blue-bar {
