@@ -7,21 +7,24 @@ import { MentionsLegales } from './pages/mentions legales';
 import { useState } from 'react';
 import './App.css';
 import PortfolioModal from './PortfolioModal';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
 function App() {
-  console.log
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
+    <>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home openModal={() => setIsModalOpen(true)} />} />
       <Route path="/services" element={<Services />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/mentions legales" element={<MentionsLegales />} />
     </Routes>
+    {isModalOpen && <PortfolioModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />}
+    </>
   );
 }
 

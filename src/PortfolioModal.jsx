@@ -16,7 +16,7 @@ const PortfolioModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="modal d-block" style={{backgroundColor: 'rgba(0,0,0,0.8)'}}>
+    <div className="modal d-block" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content bg-dark text-white border-secondary">
           <div className="modal-header border-secondary">
@@ -28,43 +28,38 @@ const PortfolioModal = ({ isOpen, onClose }) => {
             {user ? (
               <div className="row">
                 {/* Colonne Gauche : Avatar */}
-                <div className="col-md-4 text-center">
+                <div className="col-md-6 text-center">
                   <img 
                     src={user.avatar_url} 
                     alt="Avatar" 
                     className="img-fluid rounded shadow-lg mb-3"
                   />
-                  <h4>{user.name || user.login}</h4>
                 </div>
                 
                 {/* Colonne Droite : Infos du JSON */}
-                <div className="col-md-8">
+                <div className="col-md-6">
                   <p className="border-bottom border-secondary pb-2">
-                    <i className="bi bi-info-circle me-2"></i>
-                    <strong>Bio :</strong> <br/>
-                    {user.bio || "Aucune bio disponible"}
+                    <p><i className="bi bi-person"></i> <span className="text-primary text-decoration-underline">John Doe</span></p>
+                    <p className="border-bottom border-secondary pb-2"></p>
+                    <p className="bi bi-geo-alt"></p>
+                    <p className="border-bottom border-secondary pb-2"></p>
+                    <p className="bi bi-card-text"> {user.bio || "Aucune bio disponible"}</p>
+                    
                   </p>
                   
                   <ul className="list-unstyled mt-3">
                     <li className="mb-2">
-                      <strong>📦 Repositories :</strong> {user.public_repos}
+                      <p className="bi bi-box"> Repositories : {user.public_repos}</p> 
                     </li>
+                    <p className="border-bottom border-secondary pb-2"></p>
                     <li className="mb-2">
-                      <strong>👥 Followers :</strong> {user.followers}
+                      <p className="bi bi-people"> Followers : {user.followers}</p> 
                     </li>
+                    <p className="border-bottom border-secondary pb-2"></p>
                     <li className="mb-2">
-                      <strong>🤝 Following :</strong> {user.following}
+                      <p className="bi bi-people"> Following : {user.following}</p> 
                     </li>
                   </ul>
-                  
-                  <a 
-                    href={user.html_url} 
-                    target="_blank" 
-                    rel="noreferrer" 
-                    className="btn btn-outline-info btn-sm mt-3"
-                  >
-                    Voir le profil complet sur GitHub
-                  </a>
                 </div>
               </div>
             ) : (

@@ -6,7 +6,7 @@ import espaceBienEtreImg from '../images/portfolio/espace-bien-etre.jpg'
 import seoImg from '../images/portfolio/seo.jpg'
 import coderImg from '../images/portfolio/coder.jpg'
 import screensImg from '../images/portfolio/screens.jpg'
-export const Home = () => {
+export const Home = ({ openModal }) => {
     return (
         <>
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -43,6 +43,8 @@ export const Home = () => {
         <div className="hero-content text-center">
             <h1 className="=display-3 fw-bold text-white">Bonjour, je suis John Doe</h1>
             <p className="h2 text-white mb-4">Développeur web full stack</p>
+            <button className="btn btn-danger mt-3"
+            onClick={openModal}>En savoir plus</button>
         </div>
     </header>
     </section>
