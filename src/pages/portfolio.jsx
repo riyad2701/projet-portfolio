@@ -11,7 +11,7 @@ export const Portfolio = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div className="container">
-    <a className="navbar-brand text-uppercase" href="#john-doe">John Doe</a>
+    <span className="navbar-brand mbo-0 h1 fw'bold text-uppercase">John Doe</span>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span className="navbar-toggler-icon"></span>
     </button>
