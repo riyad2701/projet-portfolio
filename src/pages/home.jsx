@@ -47,7 +47,7 @@ export const Home = ({ openModal }) => {
             <div className="row">
                 <div className="col sm-6">
                     <h2 className="section-title">A propos</h2>
-                    <img src={johnDoeImg} alt="john doe" />
+                    <img src={johnDoeImg} alt="john doe" className="img-fluid" />
                     <div className="lorem-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, labore laboriosam repudiandae, consequuntur consectetur omnis eligendi soluta pariatur provident beatae dolorum suscipit sapiente maiores ab explicabo corrupti! Exercitationem, consequuntur sint?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, labore laboriosam repudiandae, consequuntur consectetur omnis eligendi soluta pariatur provident beatae dolorum suscipit sapiente maiores ab explicabo corrupti! Exercitationem, consequuntur sint?</p>

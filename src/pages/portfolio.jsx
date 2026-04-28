@@ -45,7 +45,7 @@ export const Portfolio = () => {
             </section>
             <section className="container">
             <div className="row justify-content-center text-center">
-        <div className="col-md-6 col-lg-4 mb-5">
+        <div className="col-md-4 mb-5">
         <div className="card">
         <img src={freshFoodImg} className="card-img-top" alt="Fresh Food" />
         <div className="card-body">
@@ -58,7 +58,7 @@ export const Portfolio = () => {
         </div>
         </div>
         </div>
-        <div className="col-md-6 col-lg-4 mb-5">
+        <div className="col-md-4 mb-5">
         <div className="card">
         <img src={restaurantJaponaisImg} className="card-img-top" alt="Restaurant Akira" />
         <div className="card-body">
@@ -71,7 +71,7 @@ export const Portfolio = () => {
         </div>
         </div>
         </div>
-        <div className="col-md-6 col-lg-4 mb-5">
+        <div className="col-md-4 mb-5">
         <div className="card">
           <img src={espaceBienEtreImg} className="card-img-top" alt="Espace bien-être" />
         <div className="card-body">
@@ -84,7 +84,7 @@ export const Portfolio = () => {
         </div>
         </div>
         </div>
-        <div className="col-md-6 col-lg-4 mb-5">
+        <div className="col-md-4 mb-5">
             <div className="card h-100">
   <img src={seoImg} className="card-img-top" alt="SEO" />
   <div className="card-body">
@@ -97,7 +97,7 @@ export const Portfolio = () => {
   </div>
   </div>
   </div>
-  <div className="col-md-6 col-lg-4 mb-5">
+  <div className="col-md-4 mb-5">
             <div className="card h-100">
   <img src={coderImg} className="card-img-top" alt="Création d'une API" />
   <div className="card-body">
@@ -110,7 +110,7 @@ export const Portfolio = () => {
   </div>
   </div>
   </div>
-  <div className="col-md-6 col-lg-4 mb-5">
+  <div className="col-md-4 mb-5">
             <div className="card h-100">
   <img src={screensImg} className="card-img-top" alt="Maquette d'un site web" />
   <div className="card-body">
