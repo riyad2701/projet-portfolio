@@ -18,7 +18,7 @@ export const Home = ({ openModal }) => {
     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className="navbar-nav text-uppercase">
         <li className="nav-item">
-        <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link active" to="/">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/services" target="_blank">Services</Link>

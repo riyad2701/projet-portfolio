@@ -26,7 +26,7 @@ export const Contact = () => {
         <Link className="nav-link" to="/portfolio" target="_blank">Portfolio</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" to="/contact" target="_blank">Contact</Link>
+        <Link className="nav-link active" to="/contact" target="_blank">Contact</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to="/MentionsLegales" target="_blank">Mentions Légales</Link>
@@ -63,7 +63,7 @@ export const Contact = () => {
                         </div>
                         <div className="mb-10">
                             <label htmlFor="message" className="form-label"></label>
-                            <textarea cols="60" rows="10" placeholder="Votre message" id="message" required></textarea>
+                            <textarea cols="50" rows="10" placeholder="Votre message" id="message" required></textarea>
                         </div>
                         <div className="text-center">
                         <button type="submit" className="btn btn-info text-light">Envoyer</button>

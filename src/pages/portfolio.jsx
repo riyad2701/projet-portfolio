@@ -24,7 +24,7 @@ export const Portfolio = () => {
           <Link className="nav-link" to="/services" target="_blank">Services</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" to="/portfolio" target="_blank">Portfolio</Link>
+        <Link className="nav-link active" to="/portfolio" target="_blank">Portfolio</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to="/contact" target="_blank">Contact</Link>

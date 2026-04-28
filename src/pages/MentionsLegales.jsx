@@ -29,7 +29,7 @@ export const MentionsLegales = () => {
         <Link className="nav-link" to="/contact" target="_blank">Contact</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" to="/MentionsLegales" target="_blank">Mentions Légales</Link>
+        <Link className="nav-link active" to="/MentionsLegales" target="_blank">Mentions Légales</Link>
         </li>
       </ul>
     </div>
