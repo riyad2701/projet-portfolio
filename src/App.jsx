@@ -3,7 +3,7 @@ import { Home } from './pages/home';
 import { Services } from './pages/services';
 import { Portfolio } from './pages/portfolio';
 import { Contact } from './pages/contact';
-import { MentionsLegales } from './pages/mentions legales';
+import { MentionsLegales } from './pages/mentionslegales';
 import { useState } from 'react';
 import './App.css';
 import PortfolioModal from './PortfolioModal';
@@ -21,7 +21,7 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/mentions legales" element={<MentionsLegales />} />
+      <Route path="/MentionsLegales" element={<MentionsLegales />} />
     </Routes>
     {isModalOpen && <PortfolioModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />}
     </>
