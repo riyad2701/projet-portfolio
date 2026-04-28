@@ -128,24 +128,24 @@ export const Home = ({ openModal }) => {
                 </div>
                 </div>
                 <div className="col-md-4 text-white">
-                    <h5 className="text-uppercase mb-2">Liens utiles</h5>
+                <h5 className="text-uppercase mb-2">Liens utiles</h5>
                     <ul className="list-unstyled small">
-                        <li><a href="/" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Accueil</a></li>
-                        <li><a href="/services" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Services</a></li>
-                        <li><a href="/portfolio" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Portfolio</a></li>
-                        <li><a href="/contact" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Me contacter</a></li>
-                        <li><a href="/MentionsLegales" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Mentions légales</a></li>
+                        <li><a href="/" className="text-white text-decoration-none">Accueil</a></li>
+                        <li><a href="/services" target="_blank" className="text-white text-decoration-none">Services</a></li>
+                        <li><a href="/portfolio" target="_blank" className="text-white text-decoration-none">Portfolio</a></li>
+                        <li><a href="/contact" target="_blank" className="text-white text-decoration-none">Me contacter</a></li>
+                        <li><a href="/MentionsLegales" target="_blank" className="text-white text-decoration-none">Mentions légales</a></li>
                     </ul>
                 </div>
                 <div className="col-md-4 text-white">
-                    <h5 className="text-uppercase mb-2">Mes dernières réalisations</h5>
-                     <ul className="list-unstyled small">
-                        <li><a href={freshFoodImg} target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Fresh Food</a></li>
-                        <li><a href={restaurantJaponaisImg} target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Restaurant Akira</a></li>
-                        <li><a href={espaceBienEtreImg} target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Espace bien-être</a></li>
-                        <li><a href={seoImg} target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> SEO</a></li>
-                        <li><a href={coderImg} target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Création d'une API</a></li>
-                        <li><a href={screensImg} target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Maquette d'un site</a></li>
+                <h5 className="text-uppercase mb-2">Mes dernières réalisations</h5>
+                    <ul className="list-unstyled small">
+                        <li><a href={freshFoodImg} target="_blank" className="text-white text-decoration-none">Fresh Food</a></li>
+                        <li><a href={restaurantJaponaisImg} target="_blank" className="text-white text-decoration-none">Restaurant Akira</a></li>
+                        <li><a href={espaceBienEtreImg} target="_blank" className="text-white text-decoration-none">Espace bien-être</a></li>
+                        <li><a href={seoImg} target="_blank" className="text-white text-decoration-none">SEO</a></li>
+                        <li><a href={coderImg} target="_blank" className="text-white text-decoration-none">Création d'une API</a></li>
+                        <li><a href={screensImg} target="_blank" className="text-white text-decoration-none">Maquette d'un site</a></li>
                     </ul>
                 </div>
             </div>

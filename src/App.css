@@ -147,6 +147,11 @@ body {
     text-decoration: underline;
 }
 
+.col-md-4 a:hover {
+    font-weight: bold !important;
+    color: white !important;
+}
+
 .footer-social-icons svg {
     transition: all 0.3s ease;
     opacity: 0.5;
