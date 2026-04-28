@@ -102,7 +102,7 @@ export const MentionsLegales = () => {
 </div>
   </div>
 </div>
-<footer className="fixed-bottom">
+<footer>
     <nav className="navbar navbar-dark bg-dark py-4">
         <div className="container">
             <div className="row w-100">
