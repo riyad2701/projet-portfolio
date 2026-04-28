@@ -86,23 +86,16 @@ export const MentionsLegales = () => {
    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionMentions">
   <div className="accordion-body">
     <p>
-      Ce site a été réalisé par John Doe, étudiant au
-      <a href="https://www.centre-europeen-formation.fr/" target="_blank" rel="noreferrer">
-        Centre Européen de formation
-      </a>.
+      Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" target="_blank" rel="noreferrer">Centre Européen de formation </a>.
     </p>
     <p>
       <i>
-        Les images utilisées sur ce site sont libres de droits et ont été obtenues sur
-        <a href="https://pixabay.com/fr/" target="_blank" rel="noreferrer">Pixabay</a>.
+        Les images utilisées sur ce site sont libres de droits et ont été obtenues sur <a href="https://pixabay.com/fr/" target="_blank" rel="noreferrer">Pixabay</a>.
       </i>
     </p>
     <p>
       <i>
-        Le favicon de ce site a été fourni par
-        <a href="https://www.flaticon.com/fr/icones-gratuites/john-doe" target="_blank" rel="noreferrer">
-          John doe Icons erstellt von Freepik - Flaticon
-        </a>
+        Le favicon de ce site a été fourni par <a href="https://www.flaticon.com/fr/icones-gratuites/john-doe" target="_blank" rel="noreferrer">John doe Icons erstellt von Freepik - Flaticon</a>
       </i>
     </p>
   </div>
