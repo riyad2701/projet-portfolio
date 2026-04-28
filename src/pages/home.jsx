@@ -9,6 +9,8 @@ import screensImg from '../images/portfolio/screens.jpg'
 export const Home = ({ openModal }) => {
     return (
         <>
+        <div className="d-flex flex-column min-vh-100">
+        <div className="flex-grow-1">
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div className="container">
     <span className="navbar-brand mbo-0 h1 fw'bold text-uppercase">John Doe</span>
@@ -101,7 +103,8 @@ export const Home = ({ openModal }) => {
                 </div>
                 </section>
     </main>
-<footer className="fixed-bottom">
+    </div>
+<footer>
     <nav className="navbar navbar-dark bg-dark py-4">
         <div className="container">
             <div className="row w-100">
@@ -152,6 +155,7 @@ export const Home = ({ openModal }) => {
         </div>
     </nav>
 </footer>
+</div>
         </>
     )
 }
