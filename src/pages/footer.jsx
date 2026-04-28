@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import freshFoodImg from '../images/portfolio/fresh-food.jpg';
 import restaurantJaponaisImg from '../images/portfolio/restaurant-japonais.jpg'
 import espaceBienEtreImg from '../images/portfolio/espace-bien-etre.jpg'
