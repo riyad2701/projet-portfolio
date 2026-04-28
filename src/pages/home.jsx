@@ -45,7 +45,7 @@ export const Home = ({ openModal }) => {
     <main>
          <section className="container my-5 p-5 bg-white shadow-sm">
             <div className="row">
-                <div className="col md-6">
+                <div className="col sm-6">
                     <h2 className="section-title">A propos</h2>
                     <img src={johnDoeImg} alt="john doe" />
                     <div className="lorem-text">
@@ -54,7 +54,7 @@ export const Home = ({ openModal }) => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, labore laboriosam repudiandae, consequuntur consectetur omnis eligendi soluta pariatur provident beatae dolorum suscipit sapiente maiores ab explicabo corrupti! Exercitationem, consequuntur sint?</p>
                     </div>
                 </div>
-                <div className="col md-6">
+                <div className="col sm-6">
                     <h2 className="section-title">Mes compétences</h2>
                     <div className="skill-item mt-4">
                         <p className="mb-1">jsx5 90%</p>

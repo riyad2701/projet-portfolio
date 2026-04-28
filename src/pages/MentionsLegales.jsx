@@ -95,7 +95,7 @@ export const MentionsLegales = () => {
   </div>
 </div>
   </div>
-</div>
+</div><br />
         </>
                             )
 }
