@@ -36,11 +36,13 @@ export const Portfolio = () => {
     </div>
   </div>
 </nav>
-<section id="portfolio-section" className="portfolio-header text-center my-5">
+<section id="services-section">
         <img src={bannerImg} alt="banner" />
+        <section className="services-header text-center my-5">
             <h1 className="fw-bold">Portfolio</h1>
             <p>Voici quelques-unes de mes réalisations.</p><br />
             <div className="blue-bar"></div><br /><br />
+            </section>
             <section className="container">
             <div className="row justify-content-center">
         <div className="col-md-6 col-lg-4 mb-5">
