@@ -21,7 +21,7 @@ export const Services = () => {
         <Link className="nav-link" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/services" target="_blank">Services</Link>
+          <Link className="nav-link active" to="/services" target="_blank">Services</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to="/portfolio" target="_blank">Portfolio</Link>
