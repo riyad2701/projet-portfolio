@@ -165,9 +165,6 @@ body {
     fill: white;
 }
 
-.footer a:hover {
+footer a:hover {
     font-weight: bold !important;
-    opacity: 1;
-    cursor: pointer;
-    fill: white;
 }
