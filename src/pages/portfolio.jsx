@@ -44,7 +44,7 @@ export const Portfolio = () => {
             <div className="blue-bar"></div><br /><br />
             </section>
             <section className="container">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center text-center">
         <div className="col-md-6 col-lg-4 mb-5">
         <div className="card">
         <img src={freshFoodImg} className="card-img-top" alt="Fresh Food" />
