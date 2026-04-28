@@ -30,7 +30,7 @@ export const Home = ({ openModal }) => {
         <Link className="nav-link" to="/contact" target="_blank">Contact</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" to="/mentions legales" target="_blank">Mentions Légales</Link>
+        <Link className="nav-link" to="/MentionsLegales" target="_blank">Mentions Légales</Link>
         </li>
       </ul>
     </div>
@@ -134,7 +134,7 @@ export const Home = ({ openModal }) => {
                         <li><a href="/services" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Services</a></li>
                         <li><a href="/portfolio" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Portfolio</a></li>
                         <li><a href="/contact" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Me contacter</a></li>
-                        <li><a href="/mentions legales" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Mentions légales</a></li>
+                        <li><a href="/MentionsLegales" target="_blank" className="text-white text-decoration-none"><i className="bi bi-chevron-right small"></i> Mentions légales</a></li>
                     </ul>
                 </div>
                 <div className="col-md-4 text-white">

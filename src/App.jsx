@@ -3,7 +3,7 @@ import { Home } from './pages/home';
 import { Services } from './pages/services';
 import { Portfolio } from './pages/portfolio';
 import { Contact } from './pages/contact';
-import { MentionsLegales } from './pages/mentionslegales';
+import { MentionsLegales } from './pages/MentionsLegales';
 import { useState } from 'react';
 import './App.css';
 import PortfolioModal from './PortfolioModal';
