@@ -63,7 +63,7 @@ export const Contact = () => {
                         </div>
                         <div className="mb-10">
                             <label htmlFor="message" className="form-label"></label>
-                            <textarea cols="50" rows="10" placeholder="Votre message" id="message" required></textarea>
+                            <textarea cols="58" rows="10" placeholder="Votre message" id="message" required></textarea>
                         </div>
                         <div className="text-center">
                         <button type="submit" className="btn btn-info text-light">Envoyer</button>
